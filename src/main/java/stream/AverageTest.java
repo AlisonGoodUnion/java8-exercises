@@ -12,7 +12,10 @@ public class AverageTest {
 		cursos.add(new Curso("Java 8", 113));
 		cursos.add(new Curso("C", 55));
 
-		cursos.stream().mapToInt(Curso::getAlunos).average().ifPresent(System.out::println);
+		cursos.stream()
+				.mapToInt(Curso::getAlunos)
+				.average()
+				.ifPresent(System.out::println);
 	}
 
 }

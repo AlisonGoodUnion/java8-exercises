@@ -13,6 +13,8 @@ public class StreamToList {
 		cursos.add(new Curso("Java 8", 113));
 		cursos.add(new Curso("C", 55));
 
-		cursos = cursos.stream().filter(c -> c.getAlunos() > 50).collect(Collectors.toList());
+		cursos = cursos.stream()
+				.filter(c -> c.getAlunos() > 50)
+				.collect(Collectors.toList());
 	}
 }
