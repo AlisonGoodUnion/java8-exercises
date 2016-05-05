@@ -7,4 +7,6 @@ Projeto para demonstrar algumas das novas funcionalidades do Java 8
 
 ### Method Reference
 
+### Optional
+
 ### Streams
