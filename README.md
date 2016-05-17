@@ -1,4 +1,4 @@
-# java8-exercicies
+# java8-exercises
 Projeto para demonstrar algumas das novas funcionalidades do Java 8
 
 ### Default Methods
